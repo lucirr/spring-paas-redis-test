@@ -3,7 +3,8 @@
 1. 환경
 - 언어: Java 1.8
 - 환경: Spring 4, MyBatis, MariaDB 연동, Redis 연동, Tomcat 7, Kubernetes
-- 선행작업: Docker, kubectl 설치
+- 로컬 선행작업: Docker, kubectl 설치
+- Kubernetes 선행작업: MariaDB, Redis 설치
 
 ## 배포
 
