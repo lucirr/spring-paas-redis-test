@@ -86,8 +86,8 @@ metadata:
   labels:
     application: paastest
 data:
-  MYSQL_HOST: jdbc:mysql://ip:3306/saas?useSSL=false&useUnicode=true&characterEncoding=utf8
+  MYSQL_HOST: jdbc:mysql://mysql-service:3306/saas?useSSL=false&useUnicode=true&characterEncoding=utf8
   MYSQL_USERNAME: user
   MYSQL_PASSWORD: password
-  REDIS_HOST: redis-headless
+  REDIS_HOST: redis-service
   REDIS_PASSWORD: redis

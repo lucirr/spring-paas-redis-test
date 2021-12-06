@@ -3,7 +3,6 @@
 1. 환경
 - 언어: Java 1.8
 - 환경: Spring 4, MyBatis, MariaDB 연동, Redis 연동, Tomcat 7, Kubernetes
-- IDE: Eclipse
 - 선행작업: Docker, kubectl 설치
 
 ## 배포
@@ -37,5 +36,9 @@ $ kubectl apply -f deployment.yml
 - RedisConfig.java
 - application.properties
 
-
+### 기타
+> registry_url: Image registry 주소
+> ingress_url: Ingress 주소
+> mysql-service: mysql 서비스명 (kubernetes)
+> redis-service: redis 서비스명 (kubernetes)
 
