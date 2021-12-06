@@ -38,7 +38,10 @@ $ kubectl apply -f deployment.yml
 
 ### 기타
 > registry_url: Image registry 주소
+
 > ingress_url: Ingress 주소
+
 > mysql-service: mysql 서비스명 (kubernetes)
+
 > redis-service: redis 서비스명 (kubernetes)
 
